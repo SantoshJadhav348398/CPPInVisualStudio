@@ -8,16 +8,16 @@
 */
 #pragma once
 #include "Node.h"
-class MyClass
+class LinkedList
 {
 public:
-	MyClass()
+	LinkedList()
 	{
 		head = nullptr;
 		count = 0;
 	}
 
-	~MyClass()
+	~LinkedList()
 	{
 	}
 

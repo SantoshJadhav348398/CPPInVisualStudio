@@ -2,10 +2,13 @@
 //
 
 #include <iostream>
+#include "SingleLinkedList.h"
 
 int main()
 {
     std::cout << "Hello World!\n";
+    LinkedList* l = new LinkedList();
+    std::cout << l;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
